@@ -13,7 +13,7 @@ Main features:
     Determination of the LCOE for the optimal system.
 
 
-### Main developpers
+### Main developers
 
 Sergio Balderrana <br/>
 University of Liege, Belgium - Universidad Mayor de San Simon, Bolivia <br/>
