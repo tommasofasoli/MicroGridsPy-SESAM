@@ -24,7 +24,7 @@ param: RES_Nominal_Capacity :=                              # Single unit capaci
 param: RES_Inverter_Efficiency :=                           # Efficiency [%] of the inverter connected to each Renewable Energy Source (RES) (put 1 in case of AC bus)
 1	   0.961;
 param: RES_Specific_Investment_Cost :=                      # Specific investment cost for each type of Renewable Energy Source (RES) [USD/W]
-1      1.0;
+1      2.0;
 param: RES_Specific_OM_Cost :=                              # O&M cost for each type of Renewable Energy Source (RES) as a fraction of specific investment cost [%]
 1      0.02;                                                 
 param: RES_Lifetime :=                                      # Lifetime of each Renewable Energy Source (RES) [y]

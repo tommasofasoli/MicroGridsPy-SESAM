@@ -3,7 +3,7 @@ MicroGridsPy - Sensitivity Analysis
 
 - In line 25 insert the upper and lower limit of the parameter analysed, as well as the step considered
 - Uncomment the parameter to be analysed in line 34-38
-
+- Remember to manually restore the value in Model_data.dat at the end of each Run if you are going to analyse another parameter
 
 """
 

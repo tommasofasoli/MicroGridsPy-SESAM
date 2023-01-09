@@ -11,7 +11,6 @@ def ResultsSummary(instance, Optimization_Goal, Brownfield_Investmen, gogle, sen
     Y  = int(instance.Years.extract_values()[None])
     ST = int(instance.Steps_Number.extract_values()[None])
 
-
     Discount_Rate = instance.Discount_Rate.value
 
     upgrade_years_list = [1 for i in range(ST)]
