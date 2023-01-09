@@ -15,9 +15,9 @@ param: user := 'anonymous';							#user key
 
 # --- editable parameters ---
 
-param: lat := '-1 33 56.4'; 						#latitude  [-° -' -", N positive, S negative]
-param: lon := '30 21 3.4'; 							#longitude [-° -' -", E positive, O negative]
-param: time_zone := +2;								#UTC time zone [-]
+param: lat := '8 91 19 S'; 						#latitude  [-° -' -", N positive, S negative]
+param: lon := '34 60 55 E'; 					    #longitude [-° -' -", E positive, O negative]
+param: time_zone := +3;								#UTC time zone [-]
 
 param: nom_power := 285; 							#Module nominal power [W]	
 param: tilt := 10;								    #tilt angle [°]
@@ -29,6 +29,6 @@ param: T_NMOT := 20;								#ambient temperature of NMOT conditions [°C]
 param: G_NMOT := 800;								#irradiance in NMOT conditions [W/m^2]
 
 
-param: turbine_type := 'HA';							#Horizontal Axis/Vertical Axis
+param: turbine_type := 'VA';							#Horizontal Axis/Vertical Axis
 param: turbine_model := 'NPS100c-21';				      #model name of the turbine 
 param: drivetrain_efficiency := 0.9;                    #average efficiency of turbine drivetrain (gearbox,generator,brake)
